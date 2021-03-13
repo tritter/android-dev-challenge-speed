@@ -13,13 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
-
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Shapes
+package com.example.androiddevchallenge.components
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
-val shapes = Shapes(
-    small = RoundedCornerShape(4.dp),
-    medium = RoundedCornerShape(16.dp)
-)
+@Composable
+fun RowHeader(title: String) {
+    Column(modifier = Modifier.height(40.dp).padding(16.dp, 0.dp), verticalArrangement = Arrangement.Bottom) {
+        Text(title.toUpperCase(), style = MaterialTheme.typography.h2)
+    }
+}

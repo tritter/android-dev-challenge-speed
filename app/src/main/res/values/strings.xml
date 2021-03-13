@@ -10,4 +10,40 @@
       the License.
       -->
     <string name="app_name">AndroidDevChallenge</string>
+
+    <string name="title_login">Log In</string>
+    <string name="input_email">Email address</string>
+    <string name="input_password">Password</string>
+    <string name="input_search">Search</string>
+
+    <string name="button_login">Log In</string>
+    <string name="button_signup">Sign Up</string>
+    <string name="notice_no_account">Don\'t have an account?</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Profile</string>
+
+    <string name="title_header_favorites">Favorite Collections</string>
+    <string name="title_header_align_body">Align your body</string>
+    <string name="title_header_align_mind">Align your mind</string>
+
+    <string name="title_calm_short_mantras">Short Mantras</string>
+    <string name="title_calm_nature_meditations">Nature Meditations</string>
+    <string name="title_calm_stress_and_anxiety">Stress and Anxiety</string>
+    <string name="title_calm_self_massage">Self-massage</string>
+    <string name="title_calm_overwhelmed">Overwhelmed</string>
+    <string name="title_calm_nightly_wind_down">Nightly wind down</string>
+    <string name="title_calm_inversions">Inversions</string>
+    <string name="title_calm_quick_yoga">Quick yoga</string>
+    <string name="title_calm_stretching">Stretching</string>
+    <string name="title_calm_tabata">Tabata</string>
+    <string name="title_calm_hiit">HIIT</string>
+    <string name="title_calm_pre_natal">Pre-natal yoga</string>
+    <string name="title_calm_meditate">Meditate</string>
+    <string name="title_calm_with_kids">With kids</string>
+    <string name="title_calm_aromatherapy">Aromatherapy</string>
+    <string name="title_calm_on_the_go">On the go</string>
+    <string name="title_calm_with_pets">With pets</string>
+    <string name="title_calm_high_stress">High stress</string>
+
 </resources>
