@@ -51,8 +51,9 @@ fun Home(navController: NavController = rememberNavController()) {
                 Spacer(modifier = Modifier.size(56.dp))
                 SearchField()
                 CardRow(headerFavorites, favoriteItems)
+                Spacer(Modifier.size(16.dp))
                 ImageRow(headerBodyAlign, alignBodyItems)
-                Spacer(Modifier.size(1.dp))
+                Spacer(Modifier.size(8.dp))
                 ImageRow(headerMindAlign, alignMindItems)
             }
             Column(verticalArrangement = Arrangement.Bottom, modifier = Modifier.fillMaxSize()) {

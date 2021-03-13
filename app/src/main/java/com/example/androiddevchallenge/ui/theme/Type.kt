@@ -45,13 +45,15 @@ val LightTypography = Typography(
         fontFamily = KulimPark,
         fontWeight = FontWeight.Normal,
         fontSize = 15.sp,
-        letterSpacing = 1.15.sp
+        letterSpacing = 1.15.sp,
+        color = taupe800
     ),
     h3 = TextStyle(
         fontFamily = Lato,
         fontWeight = FontWeight.Bold,
         fontSize = 14.sp,
-        letterSpacing = 0.sp
+        letterSpacing = 0.sp,
+        color = black800
     ),
     body1 = TextStyle(
         fontFamily = Lato,
@@ -87,13 +89,15 @@ val DarkTypography = Typography(
         fontFamily = KulimPark,
         fontWeight = FontWeight.Normal,
         fontSize = 15.sp,
-        letterSpacing = 1.15.sp
+        letterSpacing = 1.15.sp,
+        color = taupe100
     ),
     h3 = TextStyle(
         fontFamily = Lato,
         fontWeight = FontWeight.Bold,
         fontSize = 14.sp,
-        letterSpacing = 0.sp
+        letterSpacing = 0.sp,
+        color = white800
     ),
     body1 = TextStyle(
         fontFamily = Lato,
